@@ -26,6 +26,9 @@
 <style lang="scss" scoped>
   .login {
     position: relative;
+    background: url('~@/assets/bg.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
 
     .form {
       position: absolute;
@@ -36,8 +39,8 @@
       border-radius: 3px;
       padding: 25px 20px;
       box-sizing: border-box;
-      box-shadow: 1px 1px 5px salmon;
-      transform: translateY(-50%);
+      box-shadow: 1px 1px 10px salmon;
+      transform: translate(0, -50%);
       @media (max-width: 1200px) {
         right: 200px;
       }
@@ -45,7 +48,8 @@
         right: 150px;
       }
       @media (max-width: 768px) {
-        right: 150px;
+        right: 50%;
+        transform: translate(50%, -50%);
       }
 
       .el-form-item {
