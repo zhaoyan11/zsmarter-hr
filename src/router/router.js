@@ -10,7 +10,7 @@ const routes = [
     component: () => import('@/views/WorkSpace'),
     children: [
       { path: '', redirect: {name: 'login'} },
-      { path: '/staff', component: () => import('@/views/Staff') }
+      { name: 'staff', path: '/staff', component: () => import('@/views/Staff') }
     ]
   },
   {path: '*', component: () => import('@/views/404')}

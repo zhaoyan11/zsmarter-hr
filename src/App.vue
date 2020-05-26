@@ -13,7 +13,7 @@ export default {
 
 <style>
 body {
-  height: 100vh;
   overflow: hidden;
+  height: 100vh;
 }
 </style>

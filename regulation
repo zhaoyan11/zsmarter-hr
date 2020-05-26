@@ -1,0 +1,49 @@
+元素 attribute 的顺序
+is、v-for、v-if、v-show、v-cloak、v-pre、v-once、id、key、ref、v-model、html attribute顺序、v-on、v-html、v-text
+
+html attribute顺序：
+class, id, name, data-*, src, for, type, href, value, max-length, max, min, pattern
+placeholder, title, alt, aria-*, role, required, readonly, disabled
+
+
+css 属性顺序
+display
+float
+clear
+overflow
+overflow-x
+overflow-y
+
+position
+top
+right
+left
+bottom
+z-index
+
+margin
+box-sizing
+border
+padding
+width
+max-width
+height
+max-height
+
+font
+font-family
+font-size
+font-style
+line-height
+text-align
+vertical-align
+white-space
+
+color
+background
+
+outline
+opacity
+
+content
+cursor
